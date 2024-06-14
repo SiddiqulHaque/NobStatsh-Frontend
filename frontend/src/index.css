@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-checkbox {
+    @apply appearance-none w-4 h-4 border border-checkbox-border outline-none cursor-pointer;
+  }
+  
+  .custom-checkbox:checked {
+    @apply bg-checkbox-checked;
+  }
